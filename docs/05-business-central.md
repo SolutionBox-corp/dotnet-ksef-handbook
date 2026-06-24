@@ -275,10 +275,10 @@ Systems built with this architecture have processed over 40,000 documents in pro
 ## Further Reading
 
 - Full walkthrough with BC-specific implementation notes: [KSeF and Dynamics 365 Business Central: how to connect them](https://www.solutionbox.cz/blog/ksef-business-central-napojeni)
-- [01-ksef-api-basics.md](01-ksef-api-basics.md) — session auth, token lifecycle, base URL selection
-- [02-fa2-xml-schema.md](02-fa2-xml-schema.md) — FA(2) schema reference and validation
-- [03-durable-submit.md](03-durable-submit.md) — submit pipeline, idempotency, Hangfire setup
-- [04-status-polling.md](04-status-polling.md) — UPO polling, backoff, alert thresholds
+- [02-authentication.md](02-authentication.md) — token, qualified certificate, roles and permissions
+- [03-durable-submission.md](03-durable-submission.md) — the durable submit pipeline: idempotency, retry, reconciliation
+- [04-error-handling.md](04-error-handling.md) — failure categories and how to handle them
+- [06-testing.md](06-testing.md) — testing against the KSeF test environment
 
 ---
 
